@@ -1,0 +1,6 @@
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\bin\Debug\Grades.exe
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\bin\Debug\Grades.pdb
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\obj\Debug\Grades.exe
+C:\Users\ksulo\RiderProjects\Grades\Grades\Grades\obj\Debug\Grades.pdb

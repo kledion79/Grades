@@ -1,0 +1,11 @@
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\GradeBookTests.dll
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\GradeBookTests.pdb
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\Grades.exe
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\nunit.framework.dll
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\Grades.pdb
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\bin\Debug\nunit.framework.xml
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\obj\Debug\GradeBookTests.csprojAssemblyReference.cache
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\obj\Debug\GradeBookTests.csproj.CoreCompileInputs.cache
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\obj\Debug\GradeBookTests.csproj.CopyComplete
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\obj\Debug\GradeBookTests.dll
+C:\Users\ksulo\RiderProjects\Grades\Grades\GradeBookTests\obj\Debug\GradeBookTests.pdb
