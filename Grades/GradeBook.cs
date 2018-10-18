@@ -7,6 +7,7 @@ namespace Grades
     {
             public GradeBook()
             {
+                _name = "empty";
                 grades = new List<float>();
             }
             public GradeStatistics ComputeStatistics()
@@ -28,9 +29,39 @@ namespace Grades
             {
                 grades.Add(grade);
             }
-            public string Name;
+ /// <summary>
+ /// get/set
+ /// </summary>
+        private string _name;
 
-            private List<float> grades;
+        public string Name
+        {
+            get
+                         {
+                             return _name;
+                         }
+                         set
+                         {
+                             if (!String.IsNullOrEmpty(value))
+                             {
+                                 if (_name != value)
+                                 {
+                                     NameChangedEventsArgs args = new NameChangedEventsArgs();
+                                     args.ExistingName  = _name;
+                                     args.NewName = value;
+                                     NameChanged(this, args);
+                                 }
+                                 _name = value;
+                             }
+                             else
+                             {
+                                 Console.WriteLine("your name field is empty. go back and correct it");
+                             }
+                         }
+        }
+        //the only thing that is done to convert instance of the delegate is to add 'event'
+        public event NameChangedDelegate NameChanged;
+        private List<float> grades;
         }   
           
     }

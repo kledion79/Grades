@@ -119,5 +119,19 @@ namespace GradeBookTests
            name = name.ToUpper();
            Assert.AreEqual("KLEY", name);
         }
+
+        [Test]
+        public void UsingArrays()
+        {
+            float[] grades;
+            grades = new float[3];
+            AddGrades(grades);
+            Assert.AreEqual(89.1f, grades[0]);
+        }
+
+        private void AddGrades(float[] grades)
+        {
+            grades[0] = 89.1f;
+        }
     }
 } 
