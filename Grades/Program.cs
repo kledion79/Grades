@@ -9,6 +9,22 @@ namespace Grades
 
           
             GradeBook book = new GradeBook();
+
+            try
+            {
+                Console.WriteLine("Please enter your name: ");
+                book.Name = Console.ReadLine();
+
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine("something went wrong");
+            }
+          
             book.NameChanged += new NameChangedDelegate(OnNameChanged);
             // or book.NameChanged += OnNameChanged; --> is the same
             book.NameChanged += OnNameChanged;
